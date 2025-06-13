@@ -115,7 +115,7 @@ body {
 .six .hat {
   left: 41.5%;
   position: absolute;
-  margin-left:100px;
+  margin-left:130px;
   top: 16%;
   width: 80px;
   transform: rotate(25deg) !important;           /* Xoay trái */
@@ -284,11 +284,12 @@ body {
   }
 
   .wish-hbd {
-    font-size: 2.2em;
+    font-size: 30px;
   }
 
   .wish h5 {
     font-size: 1.4rem;
+    font-weight: bold;
   }
 
   .nine p {
