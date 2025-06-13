@@ -11,6 +11,11 @@ body {
   visibility: hidden;
 }
 
+.profile-picture{
+  width: auto;
+  height: auto;
+}
+
 .container {
   height: 100vh;
   margin: 0 auto;
@@ -103,17 +108,18 @@ body {
 
 .six img {
   display: inline-block;
-  height: 350px;
-  max-width: 100%;
-  /* height: auto; */
+   height: auto;
+    width: 100%;
 }
 
 .six .hat {
   left: 41.5%;
   position: absolute;
-  /* transform: scale(0.1); */
-  top: -35%;
+  margin-left:100px;
+  top: 16%;
   width: 80px;
+  transform: rotate(25deg) !important;           /* Xoay trái */
+  transform-origin: center center;     /* Tâm xoay ở giữa */
 }
 
 .baloons img {
